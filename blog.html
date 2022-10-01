@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ee05cca4a2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="" srcset=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidenMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>Our Certifiacate & Online Programs For 2023</h1>
+    </section>
+    
+<!-- --------------------Blog Page Content----------------------------- -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certifiacate & Online Programs For 2023</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi obcaecati recusandae aut magnam ab fugit dolorem dicta reiciendis inventore modi provident fuga repudiandae in quia corporis, animi consequatur voluptatem laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ad facere modi praesentium expedita saepe, omnis corporis? Ipsam, incidunt sunt animi recusandae architecto et earum aliquam sit excepturi natus optio voluptas impedit, repellendus neque iusto?</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente at saepe porro, quod in minus! Veritatis fugit quas, pariatur sed nisi quidem explicabo maiores, quia voluptates impedit recusandae, a natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas libero dignissimos totam nulla porro. Soluta ipsum ex magnam explicabo.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum vel eveniet eligendi doloremque nam sed distinctio quis quos assumenda reiciendis dignissimos soluta id facere excepturi. Quae sunt veniam omnis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis modi sapiente unde architecto ipsum fugit, laborum enim excepturi nesciunt. Natus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque laboriosam molestias consequatur itaque repudiandae vel suscipit voluptates rem maxime?</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Robotics</span>
+                <span>29</span>
+            </div>
+            <div>
+                <span>Artificial Inteligents</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>26</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- --------------Facilities------------------------ -->
+
+
+
+<!-- --------------------Footer----------------------------- -->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Cupiditate maiores mollitia laudantium quas facere expedita sunt eligendi hic sapiente minima.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made with love by DareDevid</i></p>
+<p>&copy; Copyright 2022</p>
+</section>
+
+    <!-- -------JavaScripts for toggle menu----------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hidenMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
